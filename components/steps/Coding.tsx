@@ -5,20 +5,14 @@ import { samplingRateScale } from "./Sampling";
 
 export const Coding = ({
   setStep,
-  soundIdx,
   samplingRate,
   quantizationBits,
-  setQuantizationBits,
   quantizationResults,
-  setQuantizationResults,
 }: {
   setStep: (value: number) => void;
-  soundIdx: number;
   samplingRate: number;
   quantizationBits: number;
-  setQuantizationBits: (value: number) => void;
   quantizationResults: number[];
-  setQuantizationResults: (value: number[]) => void;
 }) => {
   return (
     <>

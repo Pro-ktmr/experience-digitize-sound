@@ -71,12 +71,9 @@ export default function Home() {
         {step === 3 && (
           <Coding
             setStep={setStep}
-            soundIdx={soundIdx}
             samplingRate={samplingRate}
             quantizationBits={quantizationBits}
-            setQuantizationBits={setQuantizationBits}
             quantizationResults={quantizationResults}
-            setQuantizationResults={setQuantizationResults}
           />
         )}
 
