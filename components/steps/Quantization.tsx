@@ -33,7 +33,8 @@ export const Quantization = ({
         また、それぞれのサンプルのドットの高さをマウスで調整してください。
       </Typography>
       <Typography>
-        量子化ビット数：{quantizationBits}（{2 ** quantizationBits}段階）
+        量子化ビット数：{quantizationBits} ビット（{2 ** quantizationBits}{" "}
+        段階）
       </Typography>
       <Slider
         value={quantizationBits}

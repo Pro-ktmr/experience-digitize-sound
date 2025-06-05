@@ -83,10 +83,11 @@ export default function Home() {
               <Button onClick={() => setStep(3)}>前のステップへ</Button>
             </div>
             <Typography>
-              標本化周波数：{samplingRateScale(samplingRate)}
+              標本化周波数：{samplingRateScale(samplingRate)} Hz
             </Typography>
             <Typography>
-              量子化ビット数：{quantizationBits}（{2 ** quantizationBits}段階）
+              量子化ビット数：{quantizationBits} ビット（{2 ** quantizationBits}{" "}
+              段階）
             </Typography>
             <div>データ：</div>
             <textarea

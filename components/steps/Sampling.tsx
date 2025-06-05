@@ -32,7 +32,9 @@ export const Sampling = ({
       <Typography textAlign="center" marginBottom={2}>
         標本化周波数（1秒間で何個のサンプルを取るか）を選択してください。
       </Typography>
-      <Typography>標本化周波数：{samplingRateScale(samplingRate)}</Typography>
+      <Typography>
+        標本化周波数：{samplingRateScale(samplingRate)} Hz
+      </Typography>
       <Slider
         value={samplingRate}
         min={1}
